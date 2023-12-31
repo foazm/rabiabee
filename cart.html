@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Rabiabee Art Gallery</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <!-- Replace with your logo -->
+            <img src="logo.png" alt="Rabiabee Logo">
+        </div>
+        <h1>Rabiabee Art Gallery</h1>
+    </header>
+
+    <main>
+
+        <!-- Your existing product and cart content goes here -->
+
+        <div class="product">
+            <img src="bee_artwork.jpg" alt="Bee Artwork">
+            <h2>Bee Artwork Title 1</h2>
+            <p>Price: Rs.500</p>
+            <button class="addToCartBtn" data-name="Bee Artwork Title 1" data-price="500">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="bee_artwork2.jpg" alt="Bee Artwork 2">
+            <h2>Bee Artwork Title 2</h2>
+            <p>Price: Rs.500</p>
+            <button class="addToCartBtn" data-name="Bee Artwork Title 2" data-price="500">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="bee_artwork3.jpg" alt="Bee Artwork 3">
+            <h2>Bee Artwork Title 3</h2>
+            <p>Price: Rs.500</p>
+            <button class="addToCartBtn" data-name="Bee Artwork Title 3" data-price="500">Add to Cart</button>
+        </div>
+
+        <div id="cart">
+            <h2>Rabiabee Art Gallery - Shopping Cart</h2>
+            <table id="cartTable">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="cartBody">
+                    <!-- Cart items will be added dynamically here -->
+                </tbody>
+            </table>
+            <p id="cartTotal">Total: Rs.0 | Total Quantity: 0</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Rabiabee Art Gallery. All rights reserved.</p>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
