@@ -1,0 +1,1115 @@
+MAIN PROFILE HTML:
+<!doctype html>
+<html>
+    <title> rabiabee </title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/4079493d62.js" crossorigin="anonymous" ></script>
+        <script src="rabiabee.js"></script>
+        <link rel="stylesheet" type="text/css" href="rb2.css" href="https://fontawesome.com/icons/user?f=classic&s=solidx">
+    </head>
+    <body>
+        <header>
+            <div class="nav-bar"> <!-- navigation bar-->  
+                <!---rabiabee box division-->
+                <div  class="title border">
+                <p><a href="rb2.html">rabiabee</a></p>
+                </div>
+
+                <!---search bar-->
+                <div class="nav-search"> <!--search bar-->
+                    <input type="text" placeholder="what are you looking for?" class="search-item">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div> 
+
+                <!--login -->
+                <div class="nav-login border">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#login" class="pan">login</a>
+                </div>
+                
+                <!---cart-->
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    CART
+                </div>
+            </div> <!--nav bar div ends here -->
+
+
+
+            <div class="panel"> <!--- div for paintings, keychaihs etc-->
+                <div class="panel-obj">
+                    <p><a href="paintings.html"> Paintings </a></p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="keychains.html"> Keychains </a></p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="clayart.html"> Clay art </a> </p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="custom.html"> Custom Design </a> </p>
+                </div>
+            </div>
+        </header>
+
+        <!--body section-->
+
+        <div class="bodydiv">
+
+            <div class="bodydiv1">
+                <div class="headtext">
+                    <h1>TURNING MOMENTS INTO ART</h1>
+                </div>
+            </div>
+                <!--secodn body div for image-->
+            <div class="bodydiv2">
+                    
+            </div>
+        </div> 
+        
+        <!---about section-->
+        <div class="about">
+            <div class="about-font">ABOUT</div>
+            <div class="about-info"> im rabia im a dangar</div>
+        </div>
+        <!--- contact me -->
+        <footer>
+            <div class="contact-me"> <!---black about me banner in the footer-->
+                <p class="def">Contact Me</p>
+            </div>
+            <div class="contact"> <!---outermost div-->
+                <!---Instagram-->
+                <div class="contact-panel">
+                <a title="Instagram" href="https://www.instagram.com/rabiaabee/" target="_blank"><i class="fa-brands fa-instagram" class="contact-panel"></i></a>
+                </div>
+                <!---whatsappp-->
+                <div class="contact-panel">
+                <a title="WhatsApp" href="#whatsapp" target="_blank"><i class="fa-brands fa-whatsapp" class="contact-panel"></i></a>
+                </div>
+                <div class="contact-panel">
+                    <a title="Email" href="#whatsapp" target="_blank"><i class="fa-regular fa-envelope" class="contact-panel"></i></a>
+                    </div>
+            </div>
+        </footer>
+
+    </body>
+
+PAINTINGS PROFILE HTML:
+<!doctype html>
+<html>
+    <title> rabiabee </title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/4079493d62.js" crossorigin="anonymous" ></script>
+        <script src="rabiabee.js"></script>
+        <link rel="stylesheet" type="text/css" href="rb2.css" href="https://fontawesome.com/icons/user?f=classic&s=solidx">
+    </head>
+    <body>
+        <header>
+            <div class="nav-bar"> <!-- navigation bar-->  
+                <!---rabiabee box division-->
+                <div  class="title border">
+                <p><a href="rb2.html">rabiabee</a></p>
+                </div>
+
+                <!---search bar-->
+                <div class="nav-search"> <!--search bar-->
+                    <input type="text" placeholder="what are you looking for?" class="search-item">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div> 
+
+                <!--login -->
+                <div class="nav-login border">
+                    <i class="fa-solid fa-user"></i>
+                    login
+                </div>
+                
+                <!---cart-->
+                <div class="nav-cart border drop-down" id="cart-items">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    CART
+                </div>
+            </div> <!--nav bar div ends here -->
+
+
+
+            <div class="panel"> <!--- div for paintings, keychaihs etc-->
+                <div class="panel-obj">
+                    <p><a href="paintings.html"> Paintings </a></p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="keychains.html"> Keychains </a></p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="clayart.html"> Clay art </a> </p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="custom.html"> Custom Design </a> </p>
+                </div>
+            </div>
+        </header>
+
+
+<!----code perfect below this dont touch-->
+
+
+<div class="nav-body">
+            <!---big outer division that contains all the paitings -->
+                <!---1st painting div-->
+    <div class="canvas">  <!---Canvas Banner-->
+        <p class="font3">Canvas</p>
+    </div>
+    <div class="paint-div">    
+        <div class="nav-item"> <!--Outermost division for paintings-->
+            <div class="item">        <!--paintinbgs 1-->
+                <img class="zoom-effect" src="motherdaughter.jpg"> <!---caption-->
+                <div class="item-caption">
+                    <h1><a>Mother Daughter 3x3 </a></h1>
+                    <p class="font">Rs. 500 </p>
+                    <div class="addtocart">
+                        <p><a onclick="AddToCart('motherdaughter', 500.00)">Add to cart</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!---2nd painting-->
+        <div class="nav-item"> 
+            <div class="item">
+                <img class="zoom-effect"  src="moonlight.jpg">
+                <div class="item-caption">
+                    <h1><a>Moonlight 3x3</a></h1>
+                    <p class="font">Rs. xxx </p>
+                    <div class="addtocart">
+                        <p><a>Add to cart</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!---3rd painting-->
+        <div class="nav-item"> 
+            <div class="item">
+                <img class="zoom-effect"  src="dragonbz.jpg">
+                <div class="item-caption">
+                    <h1><a>Dragon Ball Z 3x3</a></h1>
+                    <p class="font">Rs. xxx </p>
+                    <div class="addtocart">
+                        <p><a>Add to cart</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---CD DIV-->
+    <div class="canvas">
+        <p class="font3">CDs</p>
+    </div>
+<!---1st cd-->
+    <div class="cd-div">
+        <div class="nav-item "> 
+            <div class="item">
+                <img class="zoom-effect"  src="stars.jpg">
+                <div class="item-caption">
+                    <h1><a>Stary Night</a></h1>
+                    <p class="font">Rs. xxx </p>
+                    <div class="addtocart">
+                        <p><a>Add to cart</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--- 2nd CD-->
+        <div class="nav-item "> 
+            <div class="item">
+                <img class="zoom-effect"  src="batman.jpg">
+                <div class="item-caption">
+                    <h1><a>Batman</a></h1>
+                    <p class="font">Rs. xxx </p>
+                    <div class="addtocart">
+                        <p><a>Add to cart</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+    </body>
+</html>
+
+KEYCHAINS PROFILE HTML:
+<!doctype html>
+<html>
+    <title> rabiabee </title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/4079493d62.js" crossorigin="anonymous" ></script>
+        <script src="rabiabee.js"></script>
+        <link rel="stylesheet" type="text/css" href="rb2.css" href="https://fontawesome.com/icons/user?f=classic&s=solidx">
+    </head>
+    <body>
+        <header>
+            <div class="nav-bar"> <!-- navigation bar-->  
+                <!---rabiabee box division-->
+                <div  class="title border">
+                <p><a href="rb2.html">rabiabee</a></p>
+                </div>
+
+                <!---search bar-->
+                <div class="nav-search"> <!--search bar-->
+                    <input type="text" placeholder="what are you looking for?" class="search-item">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div> 
+
+                <!--login -->
+                <div class="nav-login border">
+                    <i class="fa-solid fa-user"></i>
+                    login
+                </div>
+                
+                <!---cart-->
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    CART
+                </div>
+            </div> <!--nav bar div ends here -->
+
+
+
+            <div class="panel"> <!--- div for paintings, keychaihs etc-->
+                <div class="panel-obj">
+                    <p><a href="paintings.html"> Paintings </a></p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="keychains.html"> Keychains </a></p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="clayart.html"> Clay art </a> </p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="custom.html"> Custom Design </a> </p>
+                </div>
+            </div>
+        </header>
+
+
+
+
+
+        <div class="nav-body">
+            <div class="nav-item">
+                <div class="item">
+                    <img class="zoom-effect"  src="keychain.jpg">
+                    <div class="item-caption">
+                        <h1><a>Froggo Keychain</a></h1>
+                        <p class="font">Rs. xxx</p>
+                        <div class="addtocart">
+                            <p><a>Add to cart</a></p>
+                        </div>
+        </div>
+    </div>
+    </body>
+</html>
+
+CLAYART PROFILE HTML:
+<!doctype html>
+<html>
+    <title> rabiabee </title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/4079493d62.js" crossorigin="anonymous" ></script>
+        <script src="rabiabee.js"></script>
+        <link rel="stylesheet" type="text/css" href="rb2.css" href="https://fontawesome.com/icons/user?f=classic&s=solidx">
+    </head>
+    <body>
+        <header>
+            <div class="nav-bar"> <!-- navigation bar-->  
+                <!---rabiabee box division-->
+                <div  class="title border">
+                <p><a href="rb2.html">rabiabee</a></p>
+                </div>
+
+                <!---search bar-->
+                <div class="nav-search"> <!--search bar-->
+                    <input type="text" placeholder="what are you looking for?" class="search-item">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div> 
+
+                <!--login -->
+                <div class="nav-login border">
+                    <i class="fa-solid fa-user"></i>
+                    login
+                </div>
+                
+                <!---cart-->
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    CART
+                </div>
+            </div> <!--nav bar div ends here -->
+
+
+
+            <div class="panel"> <!--- div for paintings, keychaihs etc-->
+                <div class="panel-obj">
+                    <p><a href="paintings.html"> Paintings </a></p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="keychains.html"> Keychains </a></p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="clayart.html"> Clay art </a> </p>
+                </div>
+                <div class="panel-obj">
+                    <p><a href="custom.html"> Custom Design </a> </p>
+                </div>
+            </div>
+        </header>
+        <!---bodyy-->
+
+    <div class="nav-body">
+        <div class="nav-item"> <!--Outermost division for paintings-->
+            <div class="item">        <!--paintinbgs 1-->
+                <img class="zoom-effect"  src="rick.jpg"> <!---caption-->
+                <div class="item-caption">
+                    <h1><a> Rick & Morty pencil holder </a></h1>
+                    <p class="font">Rs. xxx </p>
+                    <div class="addtocart">
+                        <p><a>Add to cart</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+CART PROFILE HTML:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <title>Rabiabee Art Gallery</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <!-- Replace with your logo -->
+            <img src="logo.png" alt="Rabiabee Logo">
+        </div>
+        <h1>Rabiabee Art Gallery</h1>
+    </header>
+
+    <main>
+
+        <!-- Your existing product and cart content goes here -->
+
+        <div class="product">
+            <img src="bee_artwork.jpg" alt="Bee Artwork">
+            <h2>Bee Artwork Title 1</h2>
+            <p>Price: Rs.500</p>
+            <button class="addToCartBtn" data-name="Bee Artwork Title 1" data-price="500">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="bee_artwork2.jpg" alt="Bee Artwork 2">
+            <h2>Bee Artwork Title 2</h2>
+            <p>Price: Rs.500</p>
+            <button class="addToCartBtn" data-name="Bee Artwork Title 2" data-price="500">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="bee_artwork3.jpg" alt="Bee Artwork 3">
+            <h2>Bee Artwork Title 3</h2>
+            <p>Price: Rs.500</p>
+            <button class="addToCartBtn" data-name="Bee Artwork Title 3" data-price="500">Add to Cart</button>
+        </div>
+
+        <div id="cart">
+            <h2>Rabiabee Art Gallery - Shopping Cart</h2>
+            <table id="cartTable">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="cartBody">
+                    <!-- Cart items will be added dynamically here -->
+                </tbody>
+            </table>
+            <p id="cartTotal">Total: Rs.0 | Total Quantity: 0</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Rabiabee Art Gallery. All rights reserved.</p>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
+
+MAIN PROFILE CSS:
+* {
+    margin: 0;
+    border: 'box-border';
+}
+.nav-bar {
+    background-color: #000000;
+    height: 80px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* box 1 (header) */
+.title {
+    font-family: 'cherolina';
+    font-size: 4rem ;
+    color: white;
+    padding: 10px;
+    
+}
+
+  
+.title a {
+    color: inherit;
+    text-decoration: none;
+} 
+
+.title a:active 
+.title a:hover 
+.title a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+/* box 2 (search bar) */
+.nav-search {
+    display: flex;
+    background-color: #ffdd1b;
+    width: 50%;
+    height: 50px;
+    margin: 15px;
+    border-radius: 15px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.search-item 
+{
+    font-family: 'trajan pro';
+    width: 700px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 15px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 1.2rem;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid #575353;
+}
+
+.nav-login i {
+    font-size: 17px;
+    color: white;
+}
+ .nav-login {
+    font-size: 1.2rem;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    font-family: 'trajan pro';
+ }
+
+.nav-cart i {
+    font-size: 17px;
+    color: white;
+}
+ .nav-cart {
+    font-size: 1.2rem;
+    padding: 15px;
+    margin: 10px;
+    font-family: 'trajan pro';
+    color: white;
+ }
+
+.panel {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    background-color: white;
+}
+
+.panel-obj {
+    font-size: 1rem;
+    font-family: 'trajan pro';
+    padding: 15px;
+    border-radius: 21px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.panel-obj a {
+    text-decoration: none;
+}
+.panel-obj a:active {
+    color: inherit;
+}
+.panel-obj a:visited {
+    color: inherit;
+}
+.panel-obj:hover {
+    background-color: #ffdd1b;
+    color: black;
+    text-shadow: 2px 0px white;
+    border: 1px black transparent;
+    box-shadow: 2.5px 2.5px 1px black;
+}
+
+.bodydiv {
+    display: flex;
+    margin: 10px;
+
+}
+.bodydiv1 {
+    width: 100%;
+    height: 600px;
+    background-color: #ffdd1b;
+    border-radius: 30px 0px 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.bodydiv1 a:active {
+    color: inherit;
+}
+
+.bodydiv1{
+        width: 100%;
+        height: 600px;
+        background-color:#ffdd1b;
+        border-radius: 30px 0px 0px 30px;
+        animation-name: example;
+        animation-duration: 30s;
+      }
+      
+      @keyframes example {
+        0%   {background-color: #fcd600;}
+        20%  {background-color: #fcd600;}
+        40%  {background-color: #ffc400;}
+        60%  {background-color: #ff9900;}
+        80%  {background-color: #ffc400;}
+        100% {background-color: #fcd600;}
+        
+      }
+.headtext{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 7px 1px 3px white;
+    animation-name: name;
+    animation-duration: 10s;
+}
+
+
+
+
+
+
+
+
+
+.bodydiv2 {
+    width: 100%;
+    height: 600px;
+    background-color: #ffdd1b;
+    border-radius: 0px 30px 30px 0px;
+    display: flex;
+    background-image: url('friends.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.headtext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4rem;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 7px 1px 3px white;
+}
+
+
+.image {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: right;
+    background-image: url('friends.jpg');
+    background-repeat: no-repeat;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.img-title {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 70px;
+    font-size: 80px;
+    text-shadow: 1px 2px white;
+    justify-content: right;
+    font-family: 'cherolina';
+}
+
+.nav-body {
+    background-color: white;
+}
+.nav-item {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 600px;
+}
+.item {
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    box-shadow: 18px 0px 12px grey;
+    border-radius: 6px;
+    justify-content: space-evenly;
+    display: block;
+
+}
+
+.item-caption {
+    font-family: 'trajan pro';
+    font-size: 0.6rem;
+    color: black;
+    text-align: center;
+    padding: 16px;
+}
+.item-caption a:active {
+    color: inherit;
+}
+.item-caption a:hover {
+    color: #ffdd1b;
+    text-shadow: 1px 1px black;
+}
+
+
+.addtocart {
+    width: 90%;
+    height: 10px;
+    background-color: #ffdd1b;
+    padding: 20px;
+    color: black;
+    font-family: 'trajan pro';
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.addtocart a:active {
+    color: inherit;
+}
+.addtocart a:hover {
+    text-shadow: 1px 1px white;
+    color: black;
+}
+
+.font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.select {
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+
+.arrow {
+    width: 100%;
+    height: 40px;
+    font-family: 'trajan pro';
+
+}
+
+.nav-item2 {
+    width: 100%;
+    height: 450px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+
+
+.about {
+    background-color: black;
+    font-family: 'trajan pro';
+    font-size: 1rem;
+    margin: 20px;
+}
+.about-font {
+    font-size: 1.5rem;
+    font-family: 'trajan pro';
+    text-align: center;
+    color: white;
+    padding: 16px;
+    justify-content: center;
+    font-weight: bold;
+}
+.about-info {
+    font-size: 1rem;
+    font-family: 'trajan pro';
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    height: 500px;
+}
+
+.contact {
+
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content:center;
+    width: 100%;
+}
+.contact-me {
+    
+    background-color: black;
+    padding: 16px;
+    justify-content: center;
+    font-weight: bold;
+}
+.contact-panel {
+    font-size: 1.8rem;
+    padding: 15px;
+    margin: 10px;
+    font-family: 'trajan pro';
+}
+.contact-panel a:active
+.contact-panel a:visited
+.contact-panel a:hover {
+    color: inherit;
+}
+
+.nav-body {
+    margin: 0px;
+    padding: 8px;
+    display: block;
+    justify-content: center;
+    background-color: white;
+}
+.def {
+    font-size: 1.5rem;
+    font-family: 'trajan pro';
+    text-align: center;
+    color: white;
+}
+
+
+.nav-login a:active,
+.nav-login a:focus,
+.nav-login a:visited,
+.nav-login a:hover {
+    color: inherit;
+    text-decoration: none;
+    outline: none; 
+}
+
+.zoom-effect {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.1);
+}
+
+/* Additional styling for demonstration */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.paint-div {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: white
+    height: auto;
+
+}
+.cd-div {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    background-color: white;
+    height: auto;
+
+}
+
+.font3 {
+    font-family: 'trajan pro';
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+} 
+
+.canvas {
+    background-color: white;
+    text-align: center;
+
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.product {
+    max-width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.addToCartBtn {
+    background-color: #FFD700;
+    color: #000;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.addToCartBtn:hover {
+    background-color: #000;
+    color: #FFD700;
+}
+
+#cart {
+    margin: 20px auto;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    width: 20%; /* Fixed width for each column */
+    box-sizing: border-box; /* Include padding and border in the width */
+    white-space: nowrap; /* Prevent line breaks within table cells */
+}
+
+th {
+    text-align: center;
+}
+
+#cartTotal {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.removeBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: #000; /* Black color */
+}
+
+.removeBtn:hover {
+    color: #333; /* Slightly darker black color on hover */
+}
+
+header {
+    background-color:black; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100px; /* Adjust as needed */
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.brand-name {
+    font-style: italic;
+    color: white;;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+CART PROFILE JS:
+document.addEventListener('DOMContentLoaded', function () {
+    const addToCartBtns = document.querySelectorAll('.addToCartBtn');
+    const cartBody = document.getElementById('cartBody');
+    const cartTotal = document.getElementById('cartTotal');
+
+    let cart = [];
+
+    addToCartBtns.forEach(btn => {
+        btn.addEventListener('click', function () {
+            const productName = btn.dataset.name;
+            const productPrice = parseFloat(btn.dataset.price);
+
+            // Check if the product is already in the cart
+            const existingItem = cart.find(item => item.name === productName);
+
+            if (existingItem) {
+                existingItem.quantity++;
+            } else {
+                cart.push({ name: productName, price: productPrice, quantity: 1 });
+            }
+
+            // Update the cart display
+            updateCart();
+        });
+    });
+
+    function updateCart() {
+        // Clear existing cart content
+        cartBody.innerHTML = '';
+
+        // Populate the cart table
+        cart.forEach(item => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td><button class="removeBtn" data-product="${item.name}">&#10006;</button></td>
+                <td>${item.name}</td>
+                <td>
+                    <button class="quantityBtn" data-action="decrease" data-product="${item.name}">-</button>
+                    ${item.quantity}
+                    <button class="quantityBtn" data-action="increase" data-product="${item.name}">+</button>
+                </td>
+                <td>$${item.price.toFixed(2)}</td>
+                <td>$${(item.price * item.quantity).toFixed(2)}</td>
+            `;
+            cartBody.appendChild(row);
+        });
+
+        // Update the total amount and quantity
+        const totalAmount = cart.reduce((total, item) => total + item.price * item.quantity, 0);
+        const totalQuantity = cart.reduce((total, item) => total + item.quantity, 0);
+        cartTotal.textContent = `Total: $${totalAmount.toFixed(2)} | Total Quantity: ${totalQuantity}`;
+
+        // Add event listeners to the quantity and remove buttons
+        addEventListenersToButtons();
+    }
+
+    function addEventListenersToButtons() {
+        const quantityBtns = document.querySelectorAll('.quantityBtn');
+        const removeBtns = document.querySelectorAll('.removeBtn');
+
+        quantityBtns.forEach(btn => {
+            btn.addEventListener('click', function () {
+                const action = btn.dataset.action;
+                const productName = btn.dataset.product;
+                const item = cart.find(item => item.name === productName);
+
+                if (action === 'increase') {
+                    item.quantity++;
+                } else if (action === 'decrease' && item.quantity > 1) {
+                    item.quantity--;
+                }
+
+                updateCart();
+            });
+        });
+
+        removeBtns.forEach(btn => {
+            btn.addEventListener('click', function () {
+                const productName = btn.dataset.product;
+                cart = cart.filter(item => item.name !== productName);
+                updateCart();
+            });
+        });
+    }
+});
